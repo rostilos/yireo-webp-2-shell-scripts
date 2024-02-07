@@ -5,7 +5,7 @@ This repository contains shell scripts that can help with generating and removin
 Copy the repository files to the root folder with magento 2 project
 
 # Usage 
-1. For correct operation, you need to set script execution permission ( chmod u+r+x <script_name.sh> ).
+1. For correct operation, you need to set script execution permission ( ```chmod u+r+x <script_name.sh>``` ).
 2. Create a backup of media files ( pub/media folder ) on the environment.
 3. Install cwebp on the environment. https://developers.google.com/speed/webp/docs/using
 4. ```webp-contert-all.sh```
