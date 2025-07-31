@@ -12,7 +12,7 @@ Due to the specifics of the module's operation, a situation may arise where ther
 If there are two images with the same name but different formats in the same folder
 `image.png`
 `image.jpg`
-You also need to install this patch (so that the same hashing algorithm is used in CLI and M2). Source : <repo-root>/m2-patch.patch
+You also need to install this patch (so that the same hashing algorithm is used in CLI and M2). Source : `<repo-root>/m2-patch.patch`
 
 Before rendering, the functionality will check whether there is an image.webp file in the folder next to image.png. If not, it will convert `image.png` to `image.webp`.
 Then, when processing `image.jpg`, it will also check whether there is an `image.webp` file in the folder, and it will already be there. However, it will be a different image.
