@@ -1,0 +1,17 @@
+Index: vendor/yireo/magento2-next-gen-images/Image/TargetImageFactory.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/vendor/yireo/magento2-next-gen-images/Image/TargetImageFactory.php b/vendor/yireo/magento2-next-gen-images/Image/TargetImageFactory.php
+--- a/vendor/yireo/magento2-next-gen-images/Image/TargetImageFactory.php
++++ b/vendor/yireo/magento2-next-gen-images/Image/TargetImageFactory.php	(date 1724682950082)
+@@ -76,7 +76,7 @@
+             return '';
+         }
+
+-        return '-' . hash('crc32', $image->getPath());
++        return '-' . hash('crc32b', basename($image->getPath()));
+     }
+
+     /**
